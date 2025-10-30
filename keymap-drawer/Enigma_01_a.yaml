@@ -2,7 +2,7 @@ layout: {zmk_keyboard: Enigma_01_a}
 layers:
   Default_JIS:
   - '&tp3'
-  - {t: '=', h: setting}
+  - {t: KP PLUS, h: setting}
   - '&original_key_press Q'
   - W
   - E
