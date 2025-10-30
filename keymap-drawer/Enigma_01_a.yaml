@@ -2,8 +2,8 @@ layout: {zmk_keyboard: Enigma_01_a}
 layers:
   Default_JIS:
   - '&tp3'
-  - '&tp4'
-  - '&tp1'
+  - {t: '=', h: setting}
+  - '&original_key_press Q'
   - W
   - E
   - R
@@ -13,8 +13,8 @@ layers:
   - I
   - O
   - P
-  - A
-  - S
+  - '&original_key_press A'
+  - '&original_key_press S'
   - D
   - F
   - G
@@ -23,7 +23,7 @@ layers:
   - K
   - L
   - '-'
-  - Z
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
@@ -33,15 +33,15 @@ layers:
   - ','
   - .
   - /
-  - '&tp2'
-  - LEFT WIN
+  - '&original_key_press LCTRL'
+  - {t: LEFT WIN, h: LEFT SHIFT}
   - LEFT ALT
   - {t: SPACE, h: Ctrl+_Num_}
+  - ;
   - BACKSPACE
-  - DEL
   - {t: ENTER, h: Shift+_Mouse_}
   - RALT
-  - '&tp2'
+  - '&original_key_press RIGHT_SHIFT'
   - Sft+INTERNATIONAL 1
   Ctrl+_Num_:
   - {t: ▽, type: trans}
@@ -131,7 +131,7 @@ layers:
   - '&mmv MOVE_RIGHT'
   setting:
   - BT CLR
-  - BT CLR ALL
+  - {t: BT CLR ALL, type: held}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -165,8 +165,8 @@ layers:
   - '&bootloader'
   - ''
   - ''
-  - {type: held}
-  - {type: held}
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -177,3 +177,9 @@ layers:
 combos:
 - p: [36, 35]
   k: setting
+- p: [2, 3]
+  k: '&original_key_press ESC'
+- p: [12, 13]
+  k: '&original_key_press TAB'
+- p: [10, 11]
+  k: '&original_key_press DELETE'
