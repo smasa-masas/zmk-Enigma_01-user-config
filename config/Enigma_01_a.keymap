@@ -206,11 +206,11 @@
 
         Ctrl+_Num_ {
             bindings = <
-           &trans     &trans
-&none      &none      &none      &none      &none            &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS    &kp PRINTSCREEN
-&kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &none            &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS     &kp DELETE
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp UP_ARROW    &kp KP_DOT
-&trans     &trans     &trans     &trans     &trans           &trans           &trans           &kp LEFT         &kp DOWN_ARROW  &kp RIGHT_ARROW
+                        &trans                               &trans
+&original_key_press F4  &original_key_press LS(KP_NUMBER_2)  &original_key_press LS(NUMBER_6)  &none      &original_key_press KP_PLUS      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS                  &kp PRINTSCREEN
+&kp LC(A)               &kp LC(S)                            &kp LC(D)                         &kp LC(F)  &original_key_press KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &original_key_press KP_SLASH  &kp DELETE
+&kp LC(Z)               &kp LC(X)                            &kp LC(C)                         &kp LC(V)  &kp KP_NUMBER_0                  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp UP_ARROW                  &kp KP_DOT
+&trans                  &trans                               &trans                            &trans     &trans                           &trans           &trans           &kp LEFT         &kp DOWN_ARROW                &kp RIGHT_ARROW
             >;
 
             sensor-bindings = <&arrow_left_right>;
