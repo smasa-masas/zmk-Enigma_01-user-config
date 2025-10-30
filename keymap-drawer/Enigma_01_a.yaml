@@ -46,11 +46,11 @@ layers:
   Ctrl+_Num_:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&original_key_press F4'
+  - '&original_key_press LS(KP_NUMBER_2)'
+  - '&original_key_press LS(NUMBER_6)'
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '&original_key_press KP_PLUS'
   - KP 7
   - KP 8
   - KP 9
@@ -60,11 +60,11 @@ layers:
   - Ctl+S
   - Ctl+D
   - Ctl+F
-  - ''
+  - '&original_key_press KP_MULTIPLY'
   - KP 4
   - KP 5
   - KP 6
-  - KP PLUS
+  - '&original_key_press KP_SLASH'
   - DELETE
   - Ctl+Z
   - Ctl+X
