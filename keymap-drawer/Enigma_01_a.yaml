@@ -47,7 +47,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&original_key_press F4'
-  - '&original_key_press LS(KP_NUMBER_2)'
+  - '&original_key_press LS(N2)'
   - '&original_key_press LS(NUMBER_6)'
   - ''
   - '&original_key_press KP_PLUS'
